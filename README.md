@@ -6,7 +6,8 @@ We train both of our networks in Caltech-256.
 Paper: https://arxiv.org/pdf/2110.02178.pdf
 
 
+![mvit](https://user-images.githubusercontent.com/65830412/201538565-090cfb7a-822f-48cb-9197-c687d61e9541.gif)
 
 
-![ezgif-5-6c35d3fbdd](https://user-images.githubusercontent.com/65830412/201538489-28fe5413-a883-4464-bfc7-9a02ce14abd6.gif)
+
  
