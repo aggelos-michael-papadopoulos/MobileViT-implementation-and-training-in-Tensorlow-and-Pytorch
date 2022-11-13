@@ -27,4 +27,6 @@ We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/c
 
 # Train on Pytorch
 
-1) We execute the fix_caltech_256_pytorch.py and get the train and validation data to a caltech_data.csv
+1) We execute the "fix_caltech_256_pytorch.py" and get the train and validation data to a "caltech_data.csv". 
+
+--> the one that i have uploaded (caltech_data.csv) contains the images on my computer's paths so you have to run the fix_caltech_256_pytorch.py to get your own csv file <--
