@@ -20,3 +20,7 @@ It constists of:
  ![inv--](https://user-images.githubusercontent.com/65830412/201538843-c11d165b-991e-403e-b6e7-50967fffa8b9.png)
  
  3) Mobile ViT block
+
+
+# TRAINING
+**/ 
