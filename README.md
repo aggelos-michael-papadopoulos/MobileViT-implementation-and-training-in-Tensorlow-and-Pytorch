@@ -1,4 +1,4 @@
-## mobile-vit-tensorflow-and-Pytorch-implementation
+## Mobile ViT implementation in both Tensorflow and Pytorch
 
 The repository contains the code for the implementation of MobileViT in TensorFlow and in Pytorch. 
 We train both of our networks in Caltech-256.
