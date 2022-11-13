@@ -13,17 +13,18 @@ Paper: https://arxiv.org/pdf/2110.02178.pdf
 ![2022-11-13 20_44_26-2-Figure1-1 png ‎- Photos](https://user-images.githubusercontent.com/65830412/201538771-76ecfe36-fb08-4f05-aa01-9084f382a3b0.png)
 
  
-It constists of:
- 1) Conv blocks
+The architecture constists of 3 Blocks:
+ 1) Simple Convolution blocks
  
- 2) Inverted residual blocks from MobileNetV2 (https://arxiv.org/pdf/1801.04381.pdf) 
+ 2) MV2 Blocks: Inverted residual blocks from MobileNetV2 (https://arxiv.org/pdf/1801.04381.pdf) 
  ![inv--](https://user-images.githubusercontent.com/65830412/201538843-c11d165b-991e-403e-b6e7-50967fffa8b9.png)
  
- 3) Mobile ViT block
+ 3) Mobile ViT block: convolutions for local features + transformers for global features
 
 
 # DATA COLLECTION
 We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/caltech256
 
-# Train on Tensorflow
-1) 
+# Train on Pytorch
+
+1) We execute the fix_caltech_256_pytorch.py and get the train and validation data to a caltech_data.csv
