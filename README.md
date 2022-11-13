@@ -42,3 +42,5 @@ We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/c
 # Train on Tensorflow
 
 1) We execute the "fix_caltech_256_tensorflow.py". Here we just seperate our data to train and val folder (because that is how tensorflow wants the dataset to be). To complete this step we must have already have the "caltech_data.csv" (see step 1 from # Train on Pytorch)
+
+2) We excecute the "paper_benchmark_tensorflow.py" for training. We use Weights and Biases (https://wandb.ai/site) for visualizing our results. If you do not want to use it, just simple write "False" as the value of "wandb" key in the Config dictionary (in line 52 just write: "wand": "False")
