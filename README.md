@@ -5,7 +5,8 @@ We train both of our networks in Caltech-256.
 
 Paper: https://arxiv.org/pdf/2110.02178.pdf
 
-# MobileViT presentation results. We also did training on non squered images (150x1920). Check the representation below to find out how it can be done
+# MobileViT presentation results.
+We also did training on non squered images (150x1920). Check the representation below to find out how it can be done
 [MobileViT presentation.pptx](https://github.com/aggelos-michael-papadopoulos/xobile-ViT-impelmentation-and-training-on-Tensorlow-and-Pytorch/files/9998095/MobileViT.presentation.pptx)
 
 
