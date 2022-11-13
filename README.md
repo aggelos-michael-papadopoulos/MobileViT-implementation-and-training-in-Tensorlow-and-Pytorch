@@ -34,6 +34,10 @@ The architecture constists of 3 Blocks:
 # DATA COLLECTION
 We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/caltech256
 
+# Requirements for both enviroments:
+
+[requirements.txt](https://github.com/aggelos-michael-papadopoulos/MobileViT-impelmentation-and-training-on-Tensorlow-and-Pytorch/files/9998208/requirements.txt)
+
 # Train on Pytorch
 
 1) We execute the "fix_caltech_256_pytorch.py" and get the train and validation data to a "caltech_data.csv". 
