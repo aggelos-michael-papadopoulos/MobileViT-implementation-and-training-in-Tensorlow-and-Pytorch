@@ -22,5 +22,8 @@ It constists of:
  3) Mobile ViT block
 
 
-# TRAINING
-**/ 
+# DATA COLLECTION
+We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/caltech256
+
+# Train on Tensorflow
+1) 
