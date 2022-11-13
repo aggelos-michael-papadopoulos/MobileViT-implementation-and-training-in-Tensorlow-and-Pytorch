@@ -1,4 +1,3 @@
-# Change your conda enviroment to Deep2Deep (cntr + alt + s)
 import torch
 import torch.nn as nn
 
@@ -244,12 +243,12 @@ def count_parameters(model):
 
 
 if __name__ == '__main__':
-#     img = torch.randn(5, 3, 256, 256)
-#
+    img = torch.randn(5, 3, 256, 256)
+
     vit = mobilevit_xxs()
-#     print(vit)
-#     out = vit(img)
-    # print(out.shape)
+    print(vit)
+    out = vit(img)
+    print(out.shape)
     print(count_parameters(vit))
 
     # vit = mobilevit_xs()
