@@ -148,9 +148,8 @@ if __name__ == '__main__':
                              batch_size=CFG['batch_size'])
 
     # Create model
-    model = timm.create_model('efficientformer_l1', pretrained=True, num_classes=257)
+    model = mobilevit_xxs()
     print(count_parameters(model))
-    # model = mobilevit_xxs()
     model.to(DEVICE)
 
     def criterion(outputs, labels):
