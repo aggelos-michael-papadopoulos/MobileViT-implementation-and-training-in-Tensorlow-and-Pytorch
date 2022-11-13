@@ -5,6 +5,9 @@ We train both of our networks in Caltech-256.
 
 Paper: https://arxiv.org/pdf/2110.02178.pdf
 
+# MobileViT presentation results
+[MobileViT presentation.pptx](https://github.com/aggelos-michael-papadopoulos/Mobile-ViT-impelmentation-and-training-on-Tensorlow-and-Pytorch/files/9998095/MobileViT.presentation.pptx)
+
 
 ![mvit](https://user-images.githubusercontent.com/65830412/201538565-090cfb7a-822f-48cb-9197-c687d61e9541.gif)
 
