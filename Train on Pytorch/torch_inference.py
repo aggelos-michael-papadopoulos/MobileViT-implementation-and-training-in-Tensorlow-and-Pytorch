@@ -8,12 +8,7 @@ model = timm.create_model('mobilevit_xxs', num_classes=257)
 
 # specifications
 gpu_or_cpu = input('GPU_or_CPU? ')
-anestis_or_aggelos_size = int(input('224 or 256 input image? '))
-if anestis_or_aggelos_size == 224:
-    image_size = 224
-
-if anestis_or_aggelos_size == 256:
-    image_size = 256
+image_size = 224
 
 print(f'results for {gpu_or_cpu} on an image {(3, image_size, image_size)} ...')
 if gpu_or_cpu=='GPU':
