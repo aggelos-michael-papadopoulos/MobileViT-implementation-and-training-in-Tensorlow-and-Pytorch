@@ -10,9 +10,10 @@ def check_duplicates( give_me_a_list):
     else:
         print('Sector Clear!')
 
-caltecj_path = '/home/angepapa/PycharmProjects/Mobile-vit/calteck_256/256_ObjectCategories'
+# Here put the path on which caltech_256 has been downloaded       
+caltech_path = '/home/angepapa/PycharmProjects/Mobile-vit/calteck_256/256_ObjectCategories'
 
-classes_paths = sorted(glob.glob(caltecj_path+'/*'))
+classes_paths = sorted(glob.glob(caltech_path+'/*'))
 classes = [i.split('/')[-1] for i in classes_paths]
 
 encoder = LabelEncoder()
@@ -48,6 +49,7 @@ df = pd.DataFrame({'full_paths': full_paths,
                    'execution': execution})
 print(df.head(25))
 
+# where do you want to save your csv file
 df.to_csv('/home/angepapa/PycharmProjects/Mobile-vit/calteck_256/caltech_data.csv')
 
 
