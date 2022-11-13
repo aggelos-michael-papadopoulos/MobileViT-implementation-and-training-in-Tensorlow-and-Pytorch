@@ -40,3 +40,5 @@ We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/c
 ![2022-11-13 21_31_29-Mobile-ViT   EfficientFormer presentation - Παρουσιάσεις Google](https://user-images.githubusercontent.com/65830412/201540580-2adcb5c0-8574-4be8-b358-79c88f5da730.png)
 
 # Train on Tensorflow
+
+1) We execute the "fix_caltech_256_tensorflow.py". Here we just seperate our data to train and val folder (because that is how tensorflow wants the dataset to be). To complete this step we must have already have the "caltech_data.csv" (see step 1 from # Train on Pytorch)
