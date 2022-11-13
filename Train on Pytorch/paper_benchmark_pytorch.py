@@ -1,4 +1,3 @@
-# from EfficientFormer.models.efficientformer import efficientformer_l1
 from mobile_vit_pytorch import MobileViT
 import torch
 import torch.nn as nn
@@ -43,7 +42,7 @@ DEVICE = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 WEIGHTS_PATH = '/home/angepapa/PycharmProjects/Mobile-vit/weights'
 
 # Confid File
-CFG = {'name': 'EfficientFormer',
+CFG = {'name': 'Mobile-ViT',
        'implementation': 'Pytorch',
        'epochs': 300,
        'batch_size': 128,
@@ -94,7 +93,7 @@ class caltech256train(Dataset):
         image = self.filename[item]
         image = cv2.imread(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = cv2.resize(image, (224, 224))
+        image = cv2.resize(image, (256, 256))
         augmented = self.transform(image=image)
         image = augmented['image']
         label = self.labels[item]
@@ -114,7 +113,7 @@ class caltech256valid(Dataset):
         image = self.filename[item]
         image = cv2.imread(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = cv2.resize(image, (224, 224))
+        image = cv2.resize(image, (256, 256))
         augmented = self.transform(image=image)
         image = augmented['image']
         label = self.labels[item]
