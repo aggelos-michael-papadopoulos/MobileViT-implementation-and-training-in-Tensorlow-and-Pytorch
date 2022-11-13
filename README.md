@@ -22,6 +22,8 @@ The architecture constists of 3 Blocks:
 
  
  3) Mobile ViT block: convolutions for local features + transformers for global features
+ 
+![mobilevit-block](https://user-images.githubusercontent.com/65830412/201541247-01060e0a-82f2-4533-88f7-cb16b507a6c2.jpg)
 
 
 # DATA COLLECTION
