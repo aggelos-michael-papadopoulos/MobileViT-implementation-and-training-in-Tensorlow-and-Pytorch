@@ -22,14 +22,15 @@ The architecture constists of 3 Blocks:
  
  2) MV2 Blocks: Inverted residual blocks from MobileNetV2 (https://arxiv.org/pdf/1801.04381.pdf)
 
-![inverted_residual_block](https://user-images.githubusercontent.com/65830412/201540063-40e3518b-358b-4f0b-a722-f50013088e57.jpg)
+
+![Screenshot from 2022-11-14 11-42-10](https://user-images.githubusercontent.com/65830412/201627496-00601190-d590-4296-905f-6fdcee003e22.png)
 
  
  3) Mobile ViT block: convolutions for local features + transformers for global features
  
-![mobilevit-block](https://user-images.githubusercontent.com/65830412/201541247-01060e0a-82f2-4533-88f7-cb16b507a6c2.jpg)
+![Screenshot from 2022-11-14 11-42-58](https://user-images.githubusercontent.com/65830412/201627554-03335acb-6d55-47f8-a536-d258423cbd61.png)
 
-*** above 2 images are from https://github.com/nikhilroxtomar ***
+
 
 # DATA COLLECTION
 We download the caltech_256 from https://www.kaggle.com/datasets/jessicali9530/caltech256
