@@ -14,8 +14,7 @@ import time
 import wandb
 from wandb.keras import WandbCallback
 import tensorflow_addons as tfa
-# anestis
-from anestis import efficientformer_l1
+
 
 # run with lower GPU
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
@@ -85,14 +84,14 @@ val_datagen = ImageDataGenerator(rescale=1. / 255)
 train_loader = train_datagen.flow_from_directory(
     directory=train_dir,
     target_size=(CFG['image_size'], CFG['image_size']),
-    batch_size=CFG['batch_size'],  # put classes=[001.fk, ....] mode
+    batch_size=CFG['batch_size'],  
     class_mode='categorical'
 )
 
 val_loader = val_datagen.flow_from_directory(
     directory=val_dir,
     target_size=(CFG['image_size'], CFG['image_size']),
-    batch_size=CFG['batch_size'],  # put classes=[001.fk, ....] mode
+    batch_size=CFG['batch_size'],  
     class_mode='categorical'
 )
 
