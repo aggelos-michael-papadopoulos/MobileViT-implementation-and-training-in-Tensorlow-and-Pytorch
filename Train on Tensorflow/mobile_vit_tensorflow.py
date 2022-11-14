@@ -104,7 +104,6 @@ def mobilevit_block(x, num_blocks, projection_dim, strides=1):
 def create_mobilevit(mobile_vit_channels, mobile_vit_projection_dims, num_classes=1000, expansion_factor=4):
     # pdb.set_trace()
     inputs = keras.Input((original_image_size, original_image_size, rgb_channels))
-    # x = layers.experimental.preprocessing.Rescaling(scale=1.0/255)(inputs)
 
     # initial conv-stem -> MV2 block
     x = conv_block(inputs, filters=mobile_vit_channels[0])
