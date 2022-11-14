@@ -1,4 +1,3 @@
-# Change your conda enviroment to Mobile-Vit (cntr + alt + s)
 import tensorflow as tf
 from keras.applications import imagenet_utils
 from tensorflow.keras import layers
